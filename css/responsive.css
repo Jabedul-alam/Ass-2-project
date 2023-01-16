@@ -14,7 +14,16 @@
         font-size: 18px;
         padding: 13px 18px;
     }
+    nav {
+        padding-top: 30px;
+    }
+    .menu{
+        padding-top: 15px;
+    }
     /* banner */
+    #banner{
+        padding: 0 12px;
+    }
     #banner .banner_content {
         padding: 0px 1em;
     }
@@ -58,9 +67,17 @@
     }
 
     /* best_ft */
+    #best_ft{
+        margin: 0 12px;
+    }
     .best_ft_info {
         width: 100%; 
-        padding-right: 0px;
+        padding: 0 12px;
+
+    }
+    #best_ft .section_title h2 {
+        padding-right: 0;
+        position: relative;
     }
     .best_ft_img {
         width: 100%;
@@ -79,5 +96,20 @@
     #best_ft button {
         padding: 22px 42px;
         left: 100px;
+    }
+
+    /* fact */
+    #fact {
+        padding-top: 30px;
+        padding-right: 12px;
+        padding-left: 12px;
+        padding-bottom: 80px;
+    }
+    .section_title h2 {
+       padding-left: 20px; 
+    }
+    .sponser_images{
+        padding: 0 12px;
+        gap: 80px;
     }
  }
