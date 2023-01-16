@@ -185,12 +185,25 @@ ul li:hover a{
     line-height: 53px;
     color: #131313;
     padding-bottom: 20px;
+    padding-left: 20px;
 
 }
 #best_ft .section_title h2{
     padding-right: 170px;
+    position: relative;
 
 }
+
+#best_ft .section_title h2::before{ 
+    content: "";
+    position: absolute;
+    left: 0px;
+    top: 0;
+    width: 4px;
+    height: 100px;
+    background-color: #FF900E;
+}
+
 .ft_list{
     margin-top: 20px;
 }
@@ -218,7 +231,7 @@ ul li:hover a{
     padding: 30px 42px; 
     text-align: center;
     position: relative;
-    bottom: 30px;
+    bottom: 40px;
     left: 0;
 }
 button span{
