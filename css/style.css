@@ -53,8 +53,54 @@ button:hover{
 
 /* common css style end */
 
+/* Header section start */
+header{
+    background: rgba(255, 144, 14, 0.1);
+}
+
+header .row{
+    align-items: center;
+    justify-content: space-between;
+}
+nav{
+    padding-top: 50px;
+}
+
+.logo h2{
+    padding-top: 50px;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    text-align: center;
+    color: #131313;
+}
+
+
+.menu ul{
+    display: flex;
+    align-items: center;
+    gap:30px ;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li a{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    color: #424242;
+    transition: all linear .4s;
+}
+
+ul li:hover a{
+    color: #FF900E;
+}
 
 /* banner style start */
+
 
 #banner{
     background: rgba(255, 144, 14, 0.1);
@@ -243,3 +289,12 @@ padding-top: 50px;
 /* #sponspors img{
 
 } */
+
+.footer_content{
+    background-color: #FFF4E7;
+    padding: 39px 0 38px;
+    margin-bottom: 220px;
+    text-align: center;
+    border-radius: 8px;
+}
+
